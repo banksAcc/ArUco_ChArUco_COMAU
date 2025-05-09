@@ -1,0 +1,21 @@
+[2025-05-09 20:39:07] Avvio calibrazione
+[2025-05-09 20:39:12] Calibrazione in errore Pochi frame validi per la calibrazione
+[2025-05-09 20:39:26] Avvio calibrazione
+[2025-05-09 20:45:08] Calibrazione completata con successo
+[2025-05-09 20:52:35] Avvio tracking
+[2025-05-09 20:57:51] Avvio tracking
+[2025-05-09 20:58:05] Tracking completato in errore: ERROR: module 'cv2.aruco' has no attribute 'drawAxis'
+[2025-05-09 21:41:19] Avvio tracking
+[2025-05-09 21:44:06] Avvio tracking
+[2025-05-09 21:53:08] Avvio tracking
+[2025-05-09 21:53:39] Tracking completato con successo
+[2025-05-09 22:07:13] Avvio tracking
+[2025-05-09 22:07:44] Tracking completato con successo
+[2025-05-09 22:20:37] Avvio tracking
+[2025-05-09 22:25:18] Avvio tracking
+[2025-05-09 22:25:57] Tracking completato con successo
+[2025-05-09 22:27:46] Avvio tracking
+[2025-05-09 22:28:47] Avvio tracking
+[2025-05-09 22:29:12] Tracking completato con successo
+[2025-05-09 22:30:07] Avvio tracking
+[2025-05-09 22:31:29] Tracking completato con successo
