@@ -11,5 +11,5 @@ board = aruco.CharucoBoard((7, 5), 0.04, 0.03, aruco_dict)
 img = board.generateImage((700, 500), marginSize=10, borderBits=1)
 
 # Salvataggio dell'immagine
-cv2.imwrite("data/charuco_board.png", img)
+cv2.imwrite("../data/charuco_board.png", img)
 print("✅ Board salvata come 'charuco_board.png'")
