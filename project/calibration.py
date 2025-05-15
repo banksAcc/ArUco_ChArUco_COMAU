@@ -26,8 +26,8 @@ def run_calibration():
     """
 
     try:
-        aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_4X4_50)
-        board = aruco.CharucoBoard((7, 5), 0.04, 0.03, aruco_dict)
+        aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_5X5_100)
+        board = aruco.CharucoBoard((12, 9), 30, 22, aruco_dict)
 
         cap = cv2.VideoCapture(0)
         if not cap.isOpened():

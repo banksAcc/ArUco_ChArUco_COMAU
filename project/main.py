@@ -7,6 +7,10 @@ from pose_estimation import run_pose_estimation
 
 def log(message):
     """Salva log su file con timestamp"""
+
+    # Inserito per log di posizione attuale
+    # print("Current dir",print(os.getcwd()))
+    
     with open("data/log.txt", "a") as f:
         now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write(f"[{now}] {message}\n")
