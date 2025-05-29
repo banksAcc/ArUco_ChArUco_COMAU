@@ -5,6 +5,7 @@ import os
 import math
 
 # — Parametri di base per la Charuco board e l’immagine di output
+# board_size    = (3, 3)       # numero di quadrati in X e Y (5×5)
 board_size    = (5, 5)       # numero di quadrati in X e Y (5×5)
 square_length = 0.04         # lato di ogni quadrato in metri (usato solo per calibrazione)
 marker_length = 0.03         # lato di ogni marker ArUco in metri
