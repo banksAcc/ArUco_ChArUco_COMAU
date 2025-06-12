@@ -29,7 +29,7 @@ def run_pose_estimation():
         # OpenCV 4.11 compat: usa getPredefinedDictionary
         aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_5X5_100)
         # board = aruco.CharucoBoard((7, 5), 0.04, 0.03, aruco_dict)
-        board = aruco.CharucoBoard((12, 9), 30, 22, aruco_dict)
+        board = aruco.CharucoBoard((5, 5), 0.04, 0.03, aruco_dict)
 
 
         # Carica parametri camera
