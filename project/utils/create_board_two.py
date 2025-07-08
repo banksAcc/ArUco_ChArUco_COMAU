@@ -5,11 +5,11 @@ import os
 import math
 
 # — Parametri di base per la Charuco board e l’immagine di output
-# board_size    = (3, 3)       # numero di quadrati in X e Y (5×5)
-board_size    = (5, 5)       # numero di quadrati in X e Y (5×5)
+board_size    = (3, 3)       # numero di quadrati in X e Y (5×5)
+#board_size    = (5, 5)       # numero di quadrati in X e Y (5×5)
 square_length = 0.04         # lato di ogni quadrato in metri (usato solo per calibrazione)
 marker_length = 0.03         # lato di ogni marker ArUco in metri
-image_size    = (885, 885)   # dimensione dell’immagine finale in pixel (75 mm @300 DPI → 885 px)
+image_size    = (1500, 1500)   # dimensione dell’immagine finale in pixel (75 mm @300 DPI → 885 px)
 dictionary    = aruco.getPredefinedDictionary(aruco.DICT_5X5_100)
                              # dizionario di marker 5×5 con 100 possibili ID
 

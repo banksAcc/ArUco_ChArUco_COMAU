@@ -27,9 +27,9 @@ def run_pose_estimation():
             return {"success": False, "error": "File calib_data.npz non trovato."}
 
         # OpenCV 4.11 compat: usa getPredefinedDictionary
-        aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_5X5_100)
+        aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_7X7_100)
         # board = aruco.CharucoBoard((7, 5), 0.04, 0.03, aruco_dict)
-        board = aruco.CharucoBoard((5, 5), 0.04, 0.03, aruco_dict)
+        board = aruco.CharucoBoard((3, 3), 0.04, 0.035, aruco_dict)
 
 
         # Carica parametri camera
